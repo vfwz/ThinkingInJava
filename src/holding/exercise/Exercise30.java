@@ -35,7 +35,7 @@ public class Exercise30 implements Collection{
 
 			@Override
 			public void remove(){ // Not implemented
-				throw new UnsupportedOperationException();  // 为什么方法声明不需要加上throws
+				throw new UnsupportedOperationException();  // 涓轰粈涔堟柟娉曞０鏄庝笉闇�瑕佸姞涓妕hrows
 			}
 			
 		};
