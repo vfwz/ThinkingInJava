@@ -5,7 +5,7 @@ import java.util.Collection;
 
 public class SimpleCollection {
 	public static void main(String[] args) {
-		Collection<Integer> c = new ArrayList<Integer>(); //不能使用int
+		Collection<Integer> c = new ArrayList<Integer>(); //涓嶈兘浣跨敤int
 		for (int i = 0; i < 10; i++) {
 			c.add(i); // Autoboxing
 		}

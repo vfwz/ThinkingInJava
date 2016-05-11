@@ -7,8 +7,8 @@ import java.util.Random;
 // Upcasting to a Queue from a LinkedList
 public class QueueDemo {
 	public static void printQ(Queue queue){
-		// peek() µ±queueÎª¿ÕÊ±·µ»Ønull, element() »áÅ×³ö NoSuchElementException
-		while(queue.peek() != null)  // ´Ë´¦ÓĞÎÊÌâ£¬Èç¹ûqueueÖĞ±¾Éí°üº¬nullÔò²»ÄÜÈç´ËÅĞ¶Ï½áÊø
+		// peek() å½“queueä¸ºç©ºæ—¶è¿”å›null, element() ä¼šæŠ›å‡º NoSuchElementException
+		while(queue.peek() != null)  // æ­¤å¤„æœ‰é—®é¢˜ï¼Œå¦‚æœqueueä¸­æœ¬èº«åŒ…å«nullåˆ™ä¸èƒ½å¦‚æ­¤åˆ¤æ–­ç»“æŸ
 			System.out.print(queue.remove() + " ");
 		System.out.println();
 	}

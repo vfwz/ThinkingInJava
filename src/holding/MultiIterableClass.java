@@ -40,7 +40,7 @@ public class MultiIterableClass extends IterableClass {
 		return new Iterable<String>() {
 			public Iterator<String> iterator() {
 				List<String> shuffled = new ArrayList<String>(Arrays.asList(words));
-				Collections.shuffle(shuffled, new Random(47));  // ¬“–Ú
+				Collections.shuffle(shuffled, new Random(47));  // ‰π±Â∫è
 				return shuffled.iterator();
 			}
 		};

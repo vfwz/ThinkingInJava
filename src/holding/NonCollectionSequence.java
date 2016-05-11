@@ -63,7 +63,7 @@ public class NonCollectionSequence extends PetSequence implements Iterable<Pet>{
 		return new Iterable<Pet>() {
 			public Iterator<Pet> iterator() {
 				List<Pet> shuffled = new ArrayList<Pet>(Arrays.asList(pets));
-				Collections.shuffle(shuffled, new Random(47));  // 乱序
+				Collections.shuffle(shuffled, new Random(47));  // 涔卞簭
 				return shuffled.iterator();
 			}
 		};
@@ -75,7 +75,7 @@ public class NonCollectionSequence extends PetSequence implements Iterable<Pet>{
 		InterfaceVsIterator.display(nc.iterator());
 		display(nc.reversed());
 		display(nc.randomized());
-		display(nc); // NonCollectionSequence 需实现 Iterable接口
+		display(nc); // NonCollectionSequence 闇�瀹炵幇 Iterable鎺ュ彛
 	}
 	
 	// to display a Iterable use foreach

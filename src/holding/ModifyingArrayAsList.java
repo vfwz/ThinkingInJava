@@ -19,7 +19,7 @@ public class ModifyingArrayAsList {
 		System.out.println("After shuffling: " + list1);
 		System.out.println("array: " + Arrays.toString(ia));
 		
-		// Ö±½ÓÊ¹ÓÃ¹¹Ôì·½·¨new ArrayList<T>(ia) , ´ËiaÖ±½Ó¸³Öµ¸øĞÂListµÄ³ÉÔ±±äÁ¿Êı×é
+		// ç›´æ¥ä½¿ç”¨æ„é€ æ–¹æ³•new ArrayList<T>(ia) , æ­¤iaç›´æ¥èµ‹å€¼ç»™æ–°Listçš„æˆå‘˜å˜é‡æ•°ç»„
 		List<Integer> list2 = Arrays.asList(ia);
 		System.out.println("Before shuffling: " + list2);
 		Collections.shuffle(list2, rand);

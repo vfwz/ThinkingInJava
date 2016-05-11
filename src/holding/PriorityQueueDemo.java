@@ -32,7 +32,7 @@ public class PriorityQueueDemo {
 		stringPQ.addAll(strings);
 		QueueDemo.printQ(stringPQ);
 		
-		// Set中没重复元素
+		// Set涓病閲嶅鍏冪礌
 		Set<Character> charSet = new HashSet<Character>();
 		for(char c: fact.toCharArray())
 			charSet.add(c); // Autoboxing
