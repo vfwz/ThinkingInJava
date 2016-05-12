@@ -1,0 +1,13 @@
+package exceptions;
+
+import static util.Print.print;
+
+// P473 What's finally for?
+public class Switch {
+	private boolean state = false;
+	public boolean read() { return state; }
+	public void on() { state = true; print(this); }
+	public void off() { state = false; print(this); }
+	public String toString() { return state ? "on" : "off" ; }
+}
+
